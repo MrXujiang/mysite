@@ -1,0 +1,73 @@
+﻿/*header*/
+.header {
+    padding: .15rem .2rem;   
+    background-color: #000;
+}
+.header > .nav-btn,
+.header > .header-tit {
+    float: left;
+    margin-right: .2rem;
+    color: #fff;
+}
+.header > .header-info {
+    float: right;
+    line-height: .42rem;
+    color: #666;
+}
+.header-tit > h1 {
+    font-size: .3rem;
+}
+.nav-btn {
+    cursor: pointer;
+}
+.nav-btn:hover {
+    color: #06f;
+}
+
+/*左导航组件*/
+.left-fix-full {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #000;
+}
+.left-fix-full > .close {
+    position: absolute;
+    z-index: 10;
+    top: .2rem;
+    right: .2rem;
+    font-size: .3rem;
+    cursor: pointer;
+}
+.nav-vertical {
+    position: relative;
+    display: inline-block;
+    padding: .4rem .2rem .2rem;
+    width: 1.4rem;
+    text-align: center;
+    /*color: #333;*/
+}
+.nav-item {
+    padding-top: .14rem;
+    padding-bottom: .1rem;
+    border-bottom: 2px solid #252526;
+    cursor: pointer; 
+}
+.nav-item:last-child {
+    border-bottom: none;
+}
+.nav-vertical .active {
+    color: #fff;
+}
+.nav-item a {
+    color: #333;
+}
+.nav-item a:hover {
+    color: #fff;
+}
+.nav-vertical .nav-item-icon {
+    display: block;
+    font-size: .6rem;
+}
+

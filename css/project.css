@@ -1,0 +1,102 @@
+.project-item-box {
+    position: relative;
+    margin-top: .3rem;
+    padding: .2rem;
+    overflow: hidden;
+    width: 90%;
+    height: 1.4rem;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    text-align: center;
+    background: #fff;
+    transition: box-shadow .4s;
+}
+.project-item-box:hover {
+    box-shadow: 2px 2px 4px #ccc;
+}
+.project-item {
+    margin-bottom: .1rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: .6rem;
+    background-color: #000;
+}
+.project-item,
+.project-tit {
+    display: inline-block;
+    width: 100%;
+    color: inherit;
+}
+.add-project {
+    font-size: .3rem;
+    line-height: 1.4rem;
+    cursor: pointer;
+}
+/*分页*/
+.pager {
+    clear: both;
+    text-align: center;
+    margin-top: .2rem;
+}
+.page-tool {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.page-tool > li {
+    padding: 4px 8px;
+    float: left;
+    border-left: 1px solid #ccc;
+    margin-left: -1px;
+}
+.page-tool > li.prev,
+.page-tool > li.next {
+    background: #000;
+    color: #fff;
+}
+.page-tool > li > a {
+    color: inherit;
+}
+/*删除遮罩*/
+.delete-mask {
+    position: absolute;
+    top: -.3rem;
+    left: 0;
+    width: 100%;
+    height: .3rem;
+    line-height: .3rem;
+    background: #06f;
+    color: #fff;
+    cursor: pointer;
+    transition: top .4s;
+}
+.project-item-box:hover .delete-mask {
+    top: 0;
+}
+.delete-mask .delete-item {
+    display: inline-block;
+    cursor: pointer;
+}
+/*编辑按钮*/
+/*.edit-box {
+    position: fixed;
+    bottom: .6rem;
+    right: .6rem;
+    width: .6rem;
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}*/
+/*随笔页样式*/
+.article {
+    margin-top: .2rem;
+    border-bottom: 1px dotted #ccc;
+}
+.article a {
+    color: inherit;
+}
