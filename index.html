@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lib/myboot.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/lib/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="header clearfix">
+        <div class="nav-btn icon-th-large icon-3x" title="点此打开导航" id="nav_btn"></div>
+        <div class="header-tit">
+            <h1>HuYiYu's WebSite</h1>
+        </div>
+        <div class="header-info hidden-xs">
+            <span>空间容量：2G</span> <span>已用：12K</span>
+        </div>
+    </div>
+    <div class="main">
+    <iframe src="project.html" frameborder="0" id="myiframe" class="myiframe" name="myiframe" width="100%" scrolling="no">
+        <p>你的浏览器不支持内联框架，请更换/更新浏览器.</p>
+    </iframe>
+    </div>
+    <!--左部固定导航-->
+    <div class="left-fix-full">
+        <span class="close icon-chevron-left"></span>
+        <ul class="nav-vertical" id="nav_bar">
+            <li class="nav-item"><a data-href="project.html" class="active"><span class="nav-item-icon icon-h-sign"></span><span>项目</span></a></li>
+            <li class="nav-item"><a data-href="video.html"><span class="nav-item-icon icon-film"></span><span>视频</span></a></li>
+            <li class="nav-item"><a data-href="picture.html"><span class="nav-item-icon icon-picture"></span><span>图片</span></a></li>
+            <li class="nav-item"><a data-href="doc.html"><span class="nav-item-icon icon-file"></span><span>文档</span></a></li>
+            <li class="nav-item"><a data-href="note.html"><span class="nav-item-icon icon-book"></span><span>随笔</span></a></li>
+        </ul>
+    </div>
+    <script src="js/custom.js"></script>
+</body>
+</html>
